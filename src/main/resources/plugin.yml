@@ -2,7 +2,7 @@ name: WoujersQOL
 version: '1.0.0'
 main: com.woujer.qol.WoujersQOL
 api-version: '1.21'
-description: Bespoke, lightweight survival QoL engine for Parquet SMP.
+description: Lightweight survival quality-of-life engine for Parquet SMP.
 author: woujer
 
 commands:
@@ -15,3 +15,6 @@ commands:
   tpdeny:
     description: Deny a pending teleport request.
     usage: /<command>
+  bounty:
+    description: Place, view, or remove survival PvP bounties.
+    usage: /<command> [list|add|remove|items]
