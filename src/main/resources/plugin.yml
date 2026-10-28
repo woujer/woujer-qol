@@ -1,0 +1,17 @@
+name: WoujersQOL
+version: '1.0.0'
+main: com.woujer.qol.WoujersQOL
+api-version: '1.21'
+description: Bespoke, lightweight survival QoL engine for Parquet SMP.
+author: woujer
+
+commands:
+  tpa:
+    description: Send a teleport request to another player.
+    usage: /<command> <player>
+  tpaccept:
+    description: Accept a pending teleport request.
+    usage: /<command>
+  tpdeny:
+    description: Deny a pending teleport request.
+    usage: /<command>
